@@ -22,7 +22,7 @@ body {
   font-family: "SF Pro Display", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #3c3939;
+  color: #262222;
 }
 
 * {
@@ -74,4 +74,63 @@ img {
 .xmark {
   display: flex;
   justify-content: flex-end;
+}
+
+.subscription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 114px;
+  border-radius: 10px;
+  background: #FFF2EB;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.package:hover {
+  transition: 0.2s;
+  background: #FB9550;
+}
+
+.package__duration {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 4px;
+  margin-top: 6px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 22px 0;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #FFD9D9 -20%, rgba(255, 248, 244, 0) 130%);
+}
+
+.price__new {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.price__old {
+  position: relative;
+  font-weight: 500;
+  font-size: 17px;
+  color: rgba(60, 57, 57, 0.8);
+}
+.price__old::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -3px;
+  width: calc(100% + 5px);
+  height: 1.5px;
+  background: rgba(60, 57, 57, 0.8);
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
 import Button from "./components/Button"
 import Features from "./components/Features"
 import Footer from "./components/Footer"
-import Prices from "./components/Prices"
+import Subscription from "./components/Subscription"
 import { Xmark } from "./components/Xmark"
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
   return (
    <div className="container">
     <Xmark />
-    <Features />
-    <Prices />
-    <Button />
-    <Footer />
+    {/* <Features /> */}
+    <Subscription />
+    {/* <Button /> */}
+    {/* <Footer /> */}
    </div>
   )
 }
