@@ -33,6 +33,10 @@ body {
   margin-top: 28px;
 }
 
+.mt-22 {
+  margin-top: 22px;
+}
+
 .mt-16 {
   margin-top: 16px;
 }
@@ -153,7 +157,7 @@ img {
   font-weight: 600;
   font-size: 15px;
   padding: 15px 0;
-  background: #FB9550;
+  background: linear-gradient(to right, #F88A5F 0%, #FB9849 49%, #CB6E49 100%);
   border-radius: 8px;
 }
 
@@ -201,4 +205,61 @@ img {
 }
 .features__list li:first-child {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+}
+
+.offer {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #DB7C49;
+}
+
+.perks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.perk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8.63px;
+  border: 1px solid rgba(255, 248, 244, 0);
+  max-width: 142.43px;
+  height: 142.43px;
+}
+.perk:nth-child(1) {
+  border-right: 1px solid rgba(38, 34, 34, 0.2);
+  border-bottom: 1px solid rgba(38, 34, 34, 0.2);
+}
+.perk:nth-child(2) {
+  border-bottom: 1px solid rgba(38, 34, 34, 0.2);
+}
+.perk:nth-child(3) {
+  border-right: 1px solid rgba(38, 34, 34, 0.2);
+}
+.perk img {
+  border-radius: 14px;
+}
+.perk p {
+  text-align: center;
+  font-size: 15.54px;
+  font-weight: 500;
+}
+
+.timer {
+  display: flex;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: 500;
+}
+.timer span {
+  font-weight: 700;
+  color: #DB7C49;
 }/*# sourceMappingURL=main.css.map */

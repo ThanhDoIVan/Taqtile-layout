@@ -1,0 +1,38 @@
+.perks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.perk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8.63px;
+  border: 1px solid $transparent;
+  max-width: 142.43px;
+  height: 142.43px;
+  
+  &:nth-child(1) {
+    border-right: 1px solid $color-font-20;
+    border-bottom: 1px solid $color-font-20;
+  }
+
+  &:nth-child(2) {
+    border-bottom: 1px solid $color-font-20;
+  }
+
+  &:nth-child(3) {
+    border-right: 1px solid $color-font-20;
+  }
+
+  img {
+    border-radius: 14px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 15.54px;
+    font-weight: 500;
+  }
+}

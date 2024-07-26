@@ -3,6 +3,6 @@
   font-weight: 600;
   font-size: 15px;
   padding: 15px 0;
-  background: $color-accent;
+  background: linear-gradient(to right, $orange 0%, $orange-light 49%, $orange-dark 100%);
   border-radius: 8px;
 }

@@ -1,0 +1,11 @@
+.timer {
+  display: flex;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: 500;
+
+  span {
+    font-weight: 700;
+    color: $color-accent-dark;
+  }
+}
