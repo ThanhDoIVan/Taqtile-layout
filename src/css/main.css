@@ -25,6 +25,10 @@ body {
   color: #262222;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
 .mt-28 {
   margin-top: 28px;
 }
@@ -160,4 +164,41 @@ img {
   height: 36px;
   color: #454545;
   font-size: 14px;
+}
+
+.features {
+  min-height: 450px;
+}
+.features h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+}
+.features h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #3C3939;
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.features__list li {
+  position: relative;
+  margin-left: 28px;
+  color: #3C3939;
+  font-size: 24px;
+}
+.features__list li::before {
+  content: url("../assets/tick.svg");
+  position: absolute;
+  top: 2px;
+  left: -28px;
+  width: 20px;
+  height: 20px;
+}
+.features__list li:first-child {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
 }/*# sourceMappingURL=main.css.map */
