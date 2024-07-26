@@ -9,10 +9,10 @@ function App() {
   return (
    <div className="container">
     <Xmark />
-    {/* <Features /> */}
+    <Features />
     <Subscription />
-    {/* <Button /> */}
-    {/* <Footer /> */}
+    <Button />
+    <Footer />
    </div>
   )
 }

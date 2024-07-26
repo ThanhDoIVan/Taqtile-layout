@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <div style={{height: 450}}>Features</div>
   )
 }
 
