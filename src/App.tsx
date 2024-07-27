@@ -16,11 +16,13 @@ function App() {
 
   return (
     <div className='container'>
-      <Xmark />
-      {main}
-      <Subscription packages={packages}/>
-      <Button />
-      <Footer />
+      <div style={{ maxWidth: 430, margin: '0 auto' }}>
+        <Xmark />
+        {main}
+        <Subscription packages={packages} />
+        <Button />
+        <Footer />
+      </div>
     </div>
   );
 }
