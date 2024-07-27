@@ -1,14 +1,29 @@
-import React from 'react'
-import Package from './Package'
+import Package from './Package';
 
-const Subscription = () => {
+type Package = {
+  id: number;
+  duration: string;
+  newPrice: string;
+  oldPrice: string;
+};
+
+type SubscriptionProps = {
+  packages: Package[];
+};
+
+const Subscription = ({ packages }: SubscriptionProps) => {
   return (
     <div className='subscription'>
-      <Package />
-      <Package />
-      <Package />
+      {packages.map(({ id, duration, newPrice, oldPrice }) => (
+        <Package
+          key={id}
+          duration={duration}
+          newPrice={newPrice}
+          oldPrice={oldPrice}
+        />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Subscription
+export default Subscription;

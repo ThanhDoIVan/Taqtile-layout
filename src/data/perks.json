@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding English by ear",
+    "imgUrl": "./src/assets/english-icon.svg"
+  },
+  {
+    "id": 2,
+    "title": "5000 words from A1 to C2",
+    "imgUrl": "./src/assets/v-icon.svg"
+  },
+  {
+    "id": 3,
+    "title": "Educational watching in Safari",
+    "imgUrl": "./src/assets/subtune-icon.svg"
+  },
+  {
+    "id": 4,
+    "title": "Lexical Practice in Context",
+    "imgUrl": "./src/assets/tutor-icon.svg"
+  }
+]

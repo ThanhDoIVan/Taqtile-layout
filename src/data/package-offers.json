@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "duration": "6 months",
+    "newPrice": "19.99$",
+    "oldPrice": "29.99$"
+  },
+  {
+    "id": 2,
+    "duration": "12 months",
+    "newPrice": "39.99$",
+    "oldPrice": "49.99$"
+  },
+  {
+    "id": 3,
+    "duration": "1 month",
+    "newPrice": "5.99$",
+    "oldPrice": "7.99$"
+  }
+]

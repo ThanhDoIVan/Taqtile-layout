@@ -1,12 +1,16 @@
-import React from 'react';
+type PackageProps = {
+  duration: string;
+  newPrice: string;
+  oldPrice: string;
+}
 
-const Package = () => {
+const Package = ({duration, newPrice, oldPrice}: PackageProps) => {
   return (
     <div className='package'>
-      <p className='package__duration'>1 month</p>
+      <p className='package__duration'>{duration}</p>
       <div className='price'>
-        <h2 className='price__new'>18.99$</h2>
-        <h3 className='price__old'>22.99$</h3>
+        <h2 className='price__new'>{newPrice}</h2>
+        <h3 className='price__old'>{oldPrice}</h3>
       </div>
     </div>
   );

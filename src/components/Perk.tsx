@@ -1,10 +1,13 @@
-import React from 'react'
+type PerkProps = {
+  imgUrl: string;
+  title: string;
+}
 
-const Perk = () => {
+const Perk = ({imgUrl, title}: PerkProps) => {
   return (
     <div className='perk'>
-      <img src="./src/assets/english-icon.svg" alt="icon" width={60.43} height={60.43}/>
-      <p>Understanding English by ear</p>
+      <img src={imgUrl} alt="icon" width={60.43} height={60.43}/>
+      <p>{title}</p>
     </div>
   )
 }

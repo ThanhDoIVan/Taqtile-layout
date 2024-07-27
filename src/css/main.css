@@ -241,6 +241,9 @@ img {
 .perk:nth-child(2) {
   border-bottom: 1px solid rgba(38, 34, 34, 0.2);
 }
+.perk:nth-child(2) p {
+  width: 110px;
+}
 .perk:nth-child(3) {
   border-right: 1px solid rgba(38, 34, 34, 0.2);
 }

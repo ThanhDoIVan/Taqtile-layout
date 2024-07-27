@@ -1,5 +1,5 @@
-import React from 'react';
 import Perk from './Perk';
+import perks from '../data/perks.json';
 
 const Offer = () => {
   return (
@@ -17,10 +17,9 @@ const Offer = () => {
       </div>
       <h1>50% OFF</h1>
       <div className='perks mt-22'>
-        <Perk />
-        <Perk />
-        <Perk />
-        <Perk />
+        {perks.map( ({ id, imgUrl, title }) => (
+          <Perk key={id} imgUrl={imgUrl} title={title}/>
+        ))}
       </div>
     </div>
   );
